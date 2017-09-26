@@ -10,9 +10,9 @@ from functools import partial
 from collections import defaultdict
 
 try:
-    from PyQt5.QtGui import *
-    from PyQt5.QtCore import *
-    from PyQt5.QtWidgets import *
+    from PyQt4.QtGui import *
+    from PyQt4.QtCore import *
+    from PyQt4.QtWidgets import *
 except ImportError:
     # needed for py3+qt4
     # Ref:
